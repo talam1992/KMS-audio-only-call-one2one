@@ -1,0 +1,32 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/timothy/.nvm/versions/node/v6.6.0/bin/node',
+1 verbose cli   '/home/timothy/.nvm/versions/node/v6.6.0/bin/npm',
+1 verbose cli   'cache',
+1 verbose cli   'clean' ]
+2 info using npm@3.10.3
+3 info using node@v6.6.0
+4 silly ls normalized .
+5 silly gentlyRm /home/timothy/.npm/_cacache is being purged
+6 verbose gentlyRm don't care about contents; nuking /home/timothy/.npm/_cacache
+7 silly vacuum-fs purging /home/timothy/.npm/_cacache
+8 verbose stack Error: EACCES: permission denied, rmdir '/home/timothy/.npm/_cacache/content-v2/sha512/0b/61'
+8 verbose stack     at Error (native)
+9 verbose cwd /home/timothy/kurento-one2one-call-audio-only
+10 error Linux 4.18.0-25-generic
+11 error argv "/home/timothy/.nvm/versions/node/v6.6.0/bin/node" "/home/timothy/.nvm/versions/node/v6.6.0/bin/npm" "cache" "clean"
+12 error node v6.6.0
+13 error npm  v3.10.3
+14 error path /home/timothy/.npm/_cacache/content-v2/sha512/0b/61
+15 error code EACCES
+16 error errno -13
+17 error syscall rmdir
+18 error Error: EACCES: permission denied, rmdir '/home/timothy/.npm/_cacache/content-v2/sha512/0b/61'
+18 error     at Error (native)
+18 error  { Error: EACCES: permission denied, rmdir '/home/timothy/.npm/_cacache/content-v2/sha512/0b/61'
+18 error     at Error (native)
+18 error   errno: -13,
+18 error   code: 'EACCES',
+18 error   syscall: 'rmdir',
+18 error   path: '/home/timothy/.npm/_cacache/content-v2/sha512/0b/61' }
+19 error Please try running this command again as root/Administrator.
+20 verbose exit [ -13, true ]
